@@ -2,11 +2,15 @@
   "name": ".",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.1.0",
     "bun-types": "latest",
     "eslint": "^8.50.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "vitest": "^0.34.6"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
